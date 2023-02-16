@@ -1,0 +1,15 @@
+.gform_footer input[type=submit] {
+    background:$main-brand!important;
+    background-color:$main-brand!important;
+}
+
+
+.btn-large{
+    background-color: $main-brand-alt !important;
+}
+
+.tm-btn-large-hollow {
+    background-color: transparent !important;
+    border: 1px solid $main-brand !important;        
+    color: $main-brand !important;        
+}

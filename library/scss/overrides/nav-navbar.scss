@@ -1,0 +1,91 @@
+
+
+// .navbar-default {
+//     .navbar-nav {
+//         > li {
+//             &.active{
+//                 > a {
+//                     color: #000;
+//                     &:hover,
+//                     &:focus {
+//                         color: #000;
+//                     }
+//                 }                
+//             }
+//             > a {
+//                 &:hover,
+//                 &:focus {
+//                     color: #000;
+//                 }
+//             }
+//         }
+//     }
+//     #events-nav-bar .events-menu {
+//         .navbar-nav {
+//             > li {
+//                 > a {
+//                     &:hover,
+//                     &:focus {
+//                         color: $main-brand;
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// Primary nav
+#menu-main-menu > li {
+    > a {
+        color: #fff;
+        &:hover,
+        &:focus {
+            color: $main-brand-alt;
+        }
+    }    
+    &.active{
+        > a {
+            color: $main-brand-alt;
+        }
+    }       
+    &.brochure-nav {
+        > a {
+            background: $main-brand-alt;
+            color: #000;
+            &:hover,
+            &:focus {
+                background: $main-brand-alt-brand-bgd;
+                color: #000;
+            }
+        }
+    }
+}
+
+// Events nav
+#events-menu > li {
+    > a {
+        // background: $main-brand-alt;
+        color: #fff;
+        &:hover,
+        &:focus {
+            color: $main-brand-alt;
+        }
+    }   
+    &.active{
+        > a {
+            color: $main-brand-alt;
+        }
+    }       
+    &.brochure-nav {
+        > a {
+            background: $main-brand-alt;
+            color: #000;
+            &:hover,
+            &:focus {
+                // background: #c1a608 !important;
+                background: $main-brand-alt-black-bgd;
+                color: #000;
+            }
+        }
+    }
+}

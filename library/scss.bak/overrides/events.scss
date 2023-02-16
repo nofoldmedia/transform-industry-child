@@ -1,0 +1,85 @@
+.bracket {
+    background-image: linear-gradient($main-brand, $main-brand), linear-gradient($main-brand, $main-brand), linear-gradient($main-brand, $main-brand), linear-gradient($main-brand, $main-brand) !important;
+    border-color: $main-brand !important;
+}
+
+.tab-button {
+    &.active a,
+    &.focus a,
+    &:active,
+    &:focus {
+        background: $main-brand !important;
+    }
+}
+
+.testimonial-item {
+    .quote {
+        &:before {
+            color: $main-brand;
+        }
+
+        &:after {
+            color: $main-brand;
+        }
+    }
+
+    .name {
+        color: $main-brand;
+    }
+
+    .company {
+        color: $main-brand;
+    }
+}
+
+.related-events {
+    .related-event {
+        background:$main-brand;
+    }
+}
+
+.icons {
+    .bg-main-brand {
+        background:$main-brand-alt!important;
+    }
+}
+
+.announcement-bar{              
+    background-color: $main-brand !important;                
+}
+
+.term {
+    color: $main-brand !important;  
+}
+
+element {
+
+}
+.v2-teasers.teasers .row .teaser-item > .row figure.teaser-image figcaption:first-child {
+    background-color: $main-brand !important;  
+}
+
+.v2-teasers.teasers .row .teaser-item > .row figure.teaser-image figcaption:last-child {
+    color: $main-brand !important;  
+}
+
+// svg icons
+.v2-teasers.teasers .row .teaser-item > .row .content-inner article.main-content-teaser ul li svg:first-child .cls-1, 
+.v2-teasers.teasers .row .teaser-item > .row .content-inner article.main-content-teaser ul li svg:first-child .cls-2 {
+    stroke: $main-brand !important;  
+}
+
+//  Filters
+.tm-topic-filter,
+.tm-region-filter{
+    &--control{
+        &:before{
+            border-color: $main-brand;
+        }
+    }
+}
+
+.nav-filter li.active .checkmark {
+    background-color: $main-brand;
+}
+  

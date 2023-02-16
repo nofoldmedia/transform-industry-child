@@ -1,0 +1,23 @@
+.footer {
+   background: $main-brand!important;
+
+   .row {
+        .container-no-pad {
+            .row {
+                .footer-nav {
+                    ul {
+                        li {
+                            a {
+                                color:white;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ft-copy {
+    color:white!important;
+}

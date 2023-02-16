@@ -1,0 +1,36 @@
+.block-teasers--news-row {
+
+    > .container > .row > div > header{
+        h2{            
+            &:before{
+                background-color: $main-brand;
+            }
+        }
+    }
+}
+
+
+
+
+.block-teasers--news-row {
+    &-content-group{   
+        // News content
+        // *********************
+        .tm-article{
+            // Meta
+            &--meta {
+                &-prompt{
+                    color: $main-brand;
+                }
+            }
+
+            //  Excerpt   
+            &--overlay a *{
+                &.tm-article--overlay-prompt{
+                    color: $main-brand;
+                }
+            }  
+
+        }        
+    }
+}

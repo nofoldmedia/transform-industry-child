@@ -1,0 +1,14 @@
+.split-content {
+    .row {
+        .split-right {
+            .event {
+                background:$main-brand;
+            }
+        }
+    }
+}
+
+.news-item-caption,
+.main-news-item-caption {
+    background:$main-brand!important;
+}

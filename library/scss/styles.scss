@@ -1,0 +1,23 @@
+// INCLUDES
+
+@import "overrides/colours";
+@import "overrides/globals";
+@import "overrides/typography";
+@import "overrides/navbar";
+@import "overrides/footer";
+@import "overrides/split-content";
+@import "overrides/events";
+@import "overrides/buttons";
+
+// Version two
+@import "core/version-two/globals";
+@import "core/common/version-two/header";
+@import "core/common/version-two/footer";
+@import "core/common/version-two/navs/nav-navbar";
+// @import "core/version-two/navs/navbar";
+@import "core/version-two/colours";
+// @import "version-two/block-home-teasers";
+@import "core/version-two/typography";
+@import "core/version-two/cta";
+@import "core/version-two/buttons";
+@import "core/version-two/utf-icons";

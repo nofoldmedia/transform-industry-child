@@ -1,0 +1,48 @@
+.v2-teasers.teasers {
+    .row {
+        .teaser-item {
+            > .row {
+                .announcement-bar{               
+                    background-color: $main-brand;              
+                }
+
+                figure.teaser-image {
+                    figcaption{
+                        // &:first-child{
+                        //     background-color: $main-brand;
+                        // }
+                        // &:last-child{
+                            // background-color: #fff;
+                            // color: $main-brand;
+                        // }
+                        background-color: $main-brand;
+                        color: #fff;
+                        color: purple;
+                    }
+                }
+                .content-inner {
+                    article.main-content-teaser {
+                        ul{
+                            li{
+                                svg{
+                                    .cls-1, 
+                                    .cls-2 {
+                                        fill: none;
+                                        stroke: $main-brand;
+                                        stroke-miterlimit: 10;
+                                    }   
+                                    .Path_2,
+                                    .Path_3 {
+                                        fill: $main-brand;
+                                        // stroke: red;
+                                        // stroke-miterlimit: 10;
+                                    }  
+                                }
+                            }
+                        }
+                    }
+                }                
+            }
+        }
+    }
+}

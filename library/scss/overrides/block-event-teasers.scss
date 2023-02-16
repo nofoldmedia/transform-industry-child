@@ -1,0 +1,13 @@
+// .v2-teasers.v2-teasers-top-down.teasers {
+.v2-teasers.v2-teasers-top-down {
+    .row {
+        .teaser-item {
+            > .row {
+                // .coming-soon on homepage
+                .teaser-coming-soon{
+                        color: $main-brand-alt;
+                }                    
+            }
+        }
+    }
+}

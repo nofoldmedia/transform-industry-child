@@ -1,0 +1,8 @@
+.icon-group-item{
+    &--text-group{
+        &-title{
+            color: $main-brand-alt;
+            border-bottom-color: $main-brand;
+        }  
+    }    
+}

@@ -1,0 +1,46 @@
+.bracket {
+    background-image: linear-gradient($main-brand, $main-brand), linear-gradient($main-brand, $main-brand), linear-gradient($main-brand, $main-brand), linear-gradient($main-brand, $main-brand) !important;
+    border-color: $main-brand !important;
+}
+
+.tab-button {
+    &.active a,
+    &.focus a,
+    &:active,
+    &:focus {
+        background: $main-brand !important;
+    }
+}
+
+.testimonial-item {
+    .quote {
+        &:before {
+            color: $main-brand;
+        }
+
+        &:after {
+            color: $main-brand;
+        }
+    }
+
+    .name {
+        color: $main-brand;
+    }
+
+    .company {
+        color: $main-brand;
+    }
+}
+
+.related-events {
+    .related-event {
+        background:$main-brand;
+    }
+}
+
+.icons {
+    .bg-main-brand {
+        background:$main-brand-alt!important;
+    }
+}
+

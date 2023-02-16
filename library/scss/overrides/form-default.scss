@@ -1,0 +1,41 @@
+
+// Html seporators
+.gform_fields {
+    // Child list elements
+    li {
+        .ginput_container_select:after {
+            border-color: $main-brand-alt;       
+        }
+    }
+}
+
+// Checkboxes
+li.gfield.gf_checkboxes .gf_checkboxes--caret:after{
+    border-color: $main-brand-alt;             
+}
+
+
+
+li.active .checkmark {    
+    background-color: $main-brand;
+    border-color: $main-brand;
+}
+
+.checkmark {    
+    border-color: $main-brand;
+}
+
+.gform_wrapper ul.gform_fields li.gfield.gfield_price.gf_price,
+.gform_wrapper ul.gform_fields li.gfield.gfield_price.gf_price ~ li {
+    + .gf-two-col--consent {
+        div.ginput_container_consent.active .checkmark {
+            background-color: $main-brand;
+        }                       
+    }
+}
+
+.gform_fields li.gf-two-col.gf-two-col--consent {
+    div.ginput_container_consent.active .checkmark {
+        background-color: $main-brand;
+    }                       
+}

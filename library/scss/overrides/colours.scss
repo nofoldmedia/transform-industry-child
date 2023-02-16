@@ -1,0 +1,55 @@
+$main-brand: #005daa;
+$main-light-brand: lighten($main-brand, 10%);
+$main-extra-light-brand: lighten($main-brand, 40%);
+$main-dark-brand: darken($main-brand, 5%);
+$main-extra-dark-brand: darken($main-brand, 20%);
+$main-light-gray: #ecf2f2;
+$main-global: #0e1f2e;
+$main-brand-light:#99bedd;
+$main-light-blue:#80aed4;
+$main-teal:#005ca9;
+
+$main-brand-alt: #d6b909;
+
+$main-pink:             #9e005d;
+$dark-pink:             #363636;
+$light-pink:            #cc0066;
+$light-blue:            #e1eff8;
+$dark-blue:             #355272;
+$text-gray:             #3e3e3e;
+
+$gray-base:             #000;
+$gray-darker:           lighten($gray-base, 13.5%); 
+$gray-dark:             lighten($gray-base, 20%);   
+$gray:                  lighten($gray-base, 33.5%); 
+$gray-light:            lighten($gray-base, 70.7%);
+$gray-lighter:           lighten($gray-base, 93.5%);
+$blue-superlight:		lighten($light-blue, 5%);
+$blue-ultralight:		lighten($light-blue, 7%);
+
+$brand-primary:         darken(#428bca, 6.5%);     
+$brand-success:         #5cb85c; 
+$brand-info:            #5bc0de; 
+$brand-warning:         #f0ad4e; 
+$brand-danger:          #d9534f;
+
+.bg-main-brand {
+    background:#004a87!important;
+}
+
+.track-colour-1 {
+    background:#e6eff6!important;
+}
+
+.track-colour-2 {
+    background:#ccdeee!important;
+}
+
+.track-colour-3 {
+    background:#b3cee5!important;
+}
+
+.track-colour-4 {
+    background:#99bedd!important;
+}  
+

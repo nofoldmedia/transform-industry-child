@@ -1,0 +1,9 @@
+.block-contact--{
+    // Column
+    &column {
+        // Title
+        &-title {
+            border-bottom: 3px solid $main-brand;
+        }
+    }    
+}

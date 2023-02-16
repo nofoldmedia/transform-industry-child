@@ -1,0 +1,14 @@
+/*
+ Theme Name:   Transform Industries
+ Description:  Transform Industries Child Theme - This is used to switch colours where necessary
+ Author:       Ash Whiting
+ Author URI:   http:/ashwhiting.com
+ Template:     transform-industries
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  transform-industry-child
+*/
+
+/* Nothing to see here. This uses sass and gulp to compile and minify everything - Just use this to change the colours of the main theme elements */

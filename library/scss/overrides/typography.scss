@@ -1,0 +1,96 @@
+a {
+    color:$main-brand;
+    opacity:1;
+    transition: all 0.5s ease;
+}
+
+.social-icons {
+    color:white;
+    opacity:1;
+    transition: opacity 0.5s ease;
+    position: relative;
+    top: -4px;
+
+    &:hover,
+    &:focus {
+        color:white;
+        opacity:0.8;
+    }
+}
+
+h1, h2, h3, h4, h5 { 
+    color: $main-global;
+}
+
+
+.ev-brand-color {
+    background-color:$main-brand!important;
+}
+
+.ev-global-brand-color {
+    background-color:#0e1e2b!important;
+}
+
+.ev-light-brand-color {
+	background-color: $main-light-brand!important;
+}
+
+.ev-lighter-brand-color {
+	background-color: $main-extra-light-brand!important;
+}	
+
+.ev-dark-gray {
+    background-color:$gray-dark!important;
+}
+
+.ev-light-gray {
+    background-color:$gray-light!important;
+}
+
+.text-gray {
+	color:$main-global;
+}
+
+.dark {
+    color:#0e1e2b;
+}
+
+.light {
+    color:white;
+
+    h1,h2,h3,h4,h5,h6 {
+        color:white;
+    }
+}
+
+.brand-text-color,
+.brand-text-color h1,
+.brand-text-color h2, 
+.brand-text-color h3,
+.brand-text-color h4, 
+.light .brand-text-color,
+.light .brand-text-color h1,
+.light .brand-text-color h2, 
+.light .brand-text-color h3,
+.light .brand-text-color h4 {
+    color:$main-brand;
+}
+
+.brand-bg-color {
+    background:$main-brand;
+}
+
+.brand {
+    color:$main-brand!important;
+}
+
+.black {
+    color:black!important;
+}
+
+.font-light {
+    font-family: 'Mont-Light', Arial, Helvetica, sans-serif;
+}
+
+
+

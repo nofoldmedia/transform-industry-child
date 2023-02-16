@@ -1,0 +1,32 @@
+//  Hero buttons
+.block-text-with-content {
+    &--content-group{
+        // News content
+        // *********************
+        .block-home-news{
+            > header{
+                h2{            
+                    &:before{
+                        background: $main-brand;
+                    }
+                }
+            }
+            .tm-article{
+                &--meta {
+                    &-prompt{
+                        color: $main-brand;            
+                    }
+                }        
+
+
+                //  Excerpt
+                &--overlay a *{
+                    &.tm-article--overlay-prompt{
+                        color: $main-brand;
+                        font-family: Mont-Bold,Helvetica,Arial,sans-serif;
+                    }
+                }                
+            }
+        }
+    }
+}
